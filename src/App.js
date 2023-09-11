@@ -3,12 +3,12 @@
 import React from "react";
 import { BrowserRouter, Routes, Route }
     from 'react-router-dom';
-import Homepage from "./components/Homepage";
-import Contact from "./components/Contact";
+import Homepage from "./pages/Homepage";
+import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import Writing from "./components/Writing";
+import Projects from "./pages/Projects";
+import Skills from "./pages/Skills";
+import Writing from "./pages/Writing";
 
 export default function App() {
   return (

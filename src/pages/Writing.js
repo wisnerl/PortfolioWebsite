@@ -2,6 +2,7 @@
 
 import React from "react";
 import { BookOpenIcon } from "@heroicons/react/solid";
+//import { ProgressBar } from "react-bootstrap";
 
 export default function Writing() {
   return (
