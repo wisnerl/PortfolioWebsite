@@ -1,4 +1,4 @@
-// src/components/Projects.js
+// src/pages/Projects.js
 
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";

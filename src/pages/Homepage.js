@@ -1,4 +1,4 @@
-// src/components/Homepage.js
+// src/pages/Homepage.js
 
 import React from "react";
 import { Link } from 'react-router-dom';
