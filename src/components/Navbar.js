@@ -11,7 +11,7 @@ export default function Navbar() {
         <div className="title-font font-medium text-white mb-4 md:mb-0">
           <Link to="/" className="ml-3 text-xl">
           <img
-            className="mx-auto rounded-3xl object-center h-8 w-25 mb-6"
+            className="mx-auto object-center h-8 w-25 mb-6"
             alt="cover"
             src="./Logo-no-background.png"
           />
