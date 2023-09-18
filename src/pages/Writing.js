@@ -8,8 +8,8 @@ export default function Writing() {
   return (
     <section id="writing">
       <div className="container px-5 py-10 mx-auto text-center">
-        <PencilAltIcon className="w-10 inline-block mb-4" />
-        <h1 className="sm:text-4xl text-3xl font-medium title-font text-stone-600 mb-10">
+        <PencilAltIcon className="w-10 inline-block mb-4 text-stone-300" />
+        <h1 className="sm:text-4xl text-3xl font-medium title-font text-stone-300 mb-10">
           Writing
         </h1>
         <div class="relative mx-auto opacity-60 overflow-hidden mb-6">
@@ -19,7 +19,7 @@ export default function Writing() {
             src="./reapercover.jpg"
           />
         </div>
-        <div class="mb-1 text-xl font-medium text-left text-stone-200 xl:w-2/4 lg:w-3/4 mx-auto">Progress:</div>
+        <div class="mb-1 text-xl font-medium text-left text-stone-300 xl:w-2/4 lg:w-3/4 mx-auto">Progress:</div>
         <div class="w-full h-6 bg-gray-200 rounded-full xl:w-2/4 lg:w-3/4 mx-auto mb-6">
           <div class="h-6 bg-red-700 text-s font-medium text-red-300 text-center p-0.4 rounded-full" style={{width: `70%`}}>70%</div>
         </div>
@@ -27,7 +27,7 @@ export default function Writing() {
           <span className="text-stone-600">
             When his son is violently taken in the night by Gods, former-soldier Samael Einar makes it his mission to hunt them down and rescue his boy.
             Samael's journey will take him through a land he once razed in war, a kingdom he abandoned in their time of need, and the farthest reaches of
-            the continent, forcing him to confront assassins, horrifying creatures, and his own past. But how do you hunt down a god, and when you do, 
+            the continent. These continuous trials will force him to confront assassins, horrifying creatures, and his own past. But how do you hunt down a god, and when you do, 
           </span>
           <span className="text-red-700 font-bold"> how do you kill one?</span>
         </div>           

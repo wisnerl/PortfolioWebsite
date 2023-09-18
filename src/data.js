@@ -34,7 +34,7 @@ export const projects = [
 ];
 
 export const skills = [
-  "JavaScript",
+  "./skillicons/HTML5logo.png",
   "Node.js",
   "React.js",
   "JQuery",
