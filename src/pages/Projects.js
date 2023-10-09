@@ -13,9 +13,10 @@ export default function Projects() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-stone-400">
             Past Work
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed">
+          <p className="lg:w-2/3 mx-auto leading-relaxed mb-2">
             Below are a few samples of relevant coding projects.
           </p>
+          <hr className="mb-6 "></hr>
         </div>
         <div className="max-w-4xl flex flex-wrap overflow-hidden">
           {projects.map((project) => (

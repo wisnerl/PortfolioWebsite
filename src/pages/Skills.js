@@ -13,9 +13,10 @@ export default function Skills() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-stone-400 mb-4">
             Skills
           </h1>
-          <p className="leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          <p className="leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto mb-2">
             Coding Languages, Libraries, and Other Technologies
           </p>
+          <hr className="mb-6"></hr>
         </div>
         <div id="skillgallery" className="flex flex-wrap lg:w-4/5 mx-auto">
           {skills.map((skill) => (
