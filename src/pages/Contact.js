@@ -39,7 +39,7 @@ export default function Contact() {
             src="https://www.google.com/maps/d/u/1/embed?mid=1Il24RrLJjdHtiBO83tYIVtOdawE&hl=en&ehbc=2E312F"
           />
           <div className="bg-stone-200 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6">
+            <div className="lg:w px-6">
               <h2 className="title-font font-semibold text-stone-600 tracking-widest text-xs">
                 ADDRESS
               </h2>

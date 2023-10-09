@@ -10,7 +10,7 @@ export const projects = [
     title: "HealthIO Device",
     subtitle: "C and JavaScript",
     description:
-      "Air quality sensing device from New Age Micro, LLC. Programmed multiple webpages using HTML, JS, and JQuery and sent data between it and the device. Fixed data transfers, overlarge byte sizes, and incorrect sensor calibrations. https://www.newagemicro.com/products /total-health-io/",
+      "Air quality sensing device from New Age Micro, LLC. Programmed multiple webpages using HTML, JS, and JQuery and sent data between it and the device. Debugged data transfers, data leaks, overlarge byte sizes, and incorrect sensor calibrations. See at https://www.newagemicro.com/",
     image: "./projects/healthio/healthio.gif",
   },
   {
