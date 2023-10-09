@@ -103,7 +103,7 @@ export const recommendations = [
     title: "Most Anticipated Book",
     booktitle: "Stormlight Archive 5",
     description:
-      "I can't say enough good things about the Stormlight Archive and how Brandon Sanderson has represents mental health through the characters. This series may usurp The Wheel of Time as my favorite series when it is complete to give an idication of the quality. Not to mention the fourth book ended on a cliff-hanger for a long anticipated duel!",
+      "I can't say enough good things about the Stormlight Archive and how Brandon Sanderson has represented mental health through the characters. This series may usurp The Wheel of Time as my favorite series when it is complete to give an idication of the quality. Not to mention the fourth book ended on a cliff-hanger for a long anticipated duel!",
     image: "./bookcovers/sa5.jpg",
   },
   {
