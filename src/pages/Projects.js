@@ -14,7 +14,7 @@ export default function Projects() {
             Past Work
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed mb-2">
-            Below are a few samples of relevant coding projects.
+            Below are a few samples of relevant coding projects
           </p>
           <hr className="mb-6 "></hr>
         </div>
