@@ -35,11 +35,8 @@ export default function Contact() {
             height="100%"
             title="map"
             className="absolute inset-0"
-            frameBorder={0}
-            marginHeight={0}
-            marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/d/embed?mid=1Il24RrLJjdHtiBO83tYIVtOdawE&hl=en&ehbc=2E312F"
+            src="https://www.google.com/maps/d/u/1/embed?mid=1Il24RrLJjdHtiBO83tYIVtOdawE&hl=en&ehbc=2E312F"
           />
           <div className="bg-stone-200 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
@@ -69,7 +66,7 @@ export default function Contact() {
           name="contact"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-          <h2 className="text-stone-200 sm:text-4xl text-3xl mb-1 font-medium title-font">
+          <h2 className="text-stone-400 sm:text-4xl text-3xl mb-1 font-medium title-font">
             Contact Me
           </h2>
           <p className="leading-relaxed text-stone-600 mb-5">
@@ -83,7 +80,7 @@ export default function Contact() {
               type="text"
               id="name"
               name="name"
-              className="w-full bg-stone-300 rounded border border-gray-700 focus:border-red-500 focus:ring-2 focus:ring-red-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-stone-200 rounded border border-gray-700 focus:border-red-500 focus:ring-2 focus:ring-red-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setName(e.target.value)}
             />
           </div>
@@ -95,7 +92,7 @@ export default function Contact() {
               type="email"
               id="email"
               name="email"
-              className="w-full bg-stone-300 rounded border border-gray-700 focus:border-red-500 focus:ring-2 focus:ring-red-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-stone-200 rounded border border-gray-700 focus:border-red-500 focus:ring-2 focus:ring-red-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
@@ -108,7 +105,7 @@ export default function Contact() {
             <textarea
               id="message"
               name="message"
-              className="w-full bg-stone-300 rounded border border-gray-700 focus:border-red-500 focus:ring-2 focus:ring-red-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              className="w-full bg-stone-200 rounded border border-gray-700 focus:border-red-500 focus:ring-2 focus:ring-red-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>

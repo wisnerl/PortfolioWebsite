@@ -30,7 +30,7 @@ export default function Homepage() {
                 Contact Me
               </Link>
               <Link to="/projects"
-                className="inline-flex text-white bg-stone-600 border-0 py-2 px-6 focus:outline-none hover:bg-stone-500 hover:text-white rounded lg:text-lg md:text-lg sm:text-md">
+                className="inline-flex text-white bg-stone-500 border-0 py-2 px-6 focus:outline-none hover:bg-stone-400 hover:text-white rounded lg:text-lg md:text-lg sm:text-md">
                 See My Past Work
               </Link>
             </div>

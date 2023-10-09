@@ -13,7 +13,7 @@ import Blog from "./pages/Blog";
 
 export default function App() {
   return (
-    <main className="text-stone-700 bg-stone-400 body-font min-h-screen">
+    <main className="text-stone-700 bg-stone-100 body-font min-h-screen">
     <BrowserRouter>
       <Navbar />
       <Routes>

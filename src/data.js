@@ -5,7 +5,6 @@ export const projects = [
     description:
       "Designed a Node.js web application similar to Chess.com, but for the game Reversi. Ran the game logic through an MVC structure using ES6 with socket.io to host online play. Wrote AI minimax algorithm at three different difficulties to be opponent. Created SQL database to handle player accounts and statistics",
     image: "./projects/reversi/reversi.gif",
-    link: "",
   },
   {
     title: "HealthIO Device",
@@ -13,7 +12,6 @@ export const projects = [
     description:
       "Air quality sensing device from New Age Micro, LLC. Programmed multiple webpages using HTML, JS, and JQuery and sent data between it and the device. Fixed data transfers, overlarge byte sizes, and incorrect sensor calibrations. https://www.newagemicro.com/products /total-health-io/",
     image: "./projects/healthio/healthio.gif",
-    link: "https://www.newagemicro.com/products/total-health-io/",
   },
   {
     title: "JavaScript Automated Testing",
@@ -21,7 +19,6 @@ export const projects = [
     description:
       "Wrote JS tests for ISS encryption and device management service. Used Puppeteer library to navigate and web scrape the portal. Learned Jira and the Jest framework to generate reports and send results to the client. Completed automated tests of varying difficulty, including parsing encryption keys through scripted files",
     image: "./projects/iss/iss.gif",
-    link: "",
   },
   {
     title: "C++ Maze Generation and AI",
@@ -29,7 +26,6 @@ export const projects = [
     description:
       "Coded a reinforcement learning algorithm using C++ to solve a user-generated maze. The maze is created by a user manipulating a cursor from a keypad attached to a De1-SoC board. The code ran through the board using a linux terminal and output the graphics through VGA. Analyzed efficiency results",
     image: "./projects/de1soc/de1soc.gif",
-    link: "",
   },
 ];
 
@@ -57,5 +53,5 @@ export const skills = [
   { skillName: "SQL",
     image: "./skillicons/sqllogo.png"},
   { skillName: "Photoshop",
-    image: "./skillicons/photoshoplogo.png"},
+    image: "./skillicons/dockerlogo.png"},
 ];
