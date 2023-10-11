@@ -29,11 +29,11 @@ export default function Writing() {
         </div>
         <div className="leading-relaxed bg-stone-200 shadow-md rounded-lg xl:w-2/4 lg:w-3/4 mx-auto px-5 py-2">
           <span className="text-stone-600">
-            When his son is violently taken in the night by Gods, former-soldier Samael Einar makes it his mission to hunt them down and rescue his boy.
-            Samael's journey will take him through a land he once razed in war, a kingdom he abandoned in their time of need, and the farthest reaches of
-            the continent. These continuous trials will force him to confront assassins, horrifying creatures, and his own past. But how do you hunt down a god, and when you do, 
+            When his son is taken in the night by gods, former soldier Samael Einar makes it his mission to hunt them down and rescue his child.
+            Samael's journey will take him through a land he once razed in war, a kingdom he abandoned in its time of need, and the farthest reaches of
+            the continent. These continuous trials will force him to confront assassins, horrifying creatures, and his own troubled past. But how do you hunt down a god, and when you do, 
           </span>
-          <span className="text-red-700 font-bold"> how do you kill one?</span>
+          <span className="text-red-700 font-bold"> how do you defeat one?</span>
         </div>           
       </div>
     </section>
