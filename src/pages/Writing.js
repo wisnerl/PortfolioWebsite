@@ -7,15 +7,15 @@ import { PencilAltIcon } from "@heroicons/react/solid";
 export default function Writing() {
   return (
     <section id="writing">
-      <div className="container px-5 py-10 mx-auto text-center">
+      <div className="container max-w-screen-2xl px-5 py-10 mx-auto text-center">
         <PencilAltIcon className="w-10 inline-block mb-4 text-stone-400" />
         <h1 className="sm:text-4xl text-3xl font-medium title-font text-stone-400 mb-4">
           Writing
         </h1>
         <p className="lg:w-2/3 mx-auto leading-relaxed mb-2">
-            I've always had stories bouncing around my head, but now I'm writing my first ever full-length novel
+            I've always had stories bouncing around in my head, but now I'm finally writing my first full-length novel!
           </p>
-          <hr className="mb-6"></hr>
+          <hr className="mb-6 lg:w-2/3 mx-auto"></hr>
         <div class="relative mx-auto opacity-60 overflow-hidden mb-6">
         <img
             className="object-center mx-auto rounded-2xl shadow-md mb-2"

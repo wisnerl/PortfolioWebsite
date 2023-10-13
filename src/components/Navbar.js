@@ -17,12 +17,15 @@ export default function Navbar() {
           />
           </Link>
         </div>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-500	flex flex-wrap items-center text-base justify-center">
+        <nav className="md:mr-auto sm:ml-0 ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-500	flex flex-wrap items-center text-base justify-center">
+          <Link to="/bio" className="mr-5 hover:text-red-700">
+            About Me
+          </Link>
           <Link to="/projects" className="mr-5 hover:text-red-700">
-            Past Work
+            Coding Work
           </Link>
           <Link to="/skills" className="mr-5 hover:text-red-700">
-            Skills
+            Tech Skills
           </Link>
           <Link to="/writing" className="mr-5 hover:text-red-700">
             Writing

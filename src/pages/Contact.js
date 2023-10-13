@@ -28,7 +28,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+      <div className="container max-w-screen-2xl px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-stone-200 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
             width="100%"
@@ -70,7 +70,7 @@ export default function Contact() {
             Contact Me
           </h2>
           <p className="leading-relaxed text-stone-600 mb-5">
-            Send me an email below with any inquiries, and I'll get back to you quickly!
+            Send me an email below with any inquiries, and I'll get back to you right away!
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-stone-600">

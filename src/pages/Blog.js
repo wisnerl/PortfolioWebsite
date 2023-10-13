@@ -8,13 +8,13 @@ import { recommendations } from "../data";
 export default function Blog() {
   return (
     <section id="writing">
-      <div className="container px-5 py-10 mx-auto text-center 2xl:w-1/2 xl:w-1/2 l:w-1/2 m:w-2/3 sm:w w">
+      <div className="container max-w-screen-2xl px-5 py-10 mx-auto text-center 2xl:w-1/2 xl:w-1/2 l:w-1/2 m:w-2/3 sm:w w">
         <BookOpenIcon className="w-10 inline-block mb-4 text-stone-400" />
         <h1 className="sm:text-4xl text-3xl font-medium title-font text-stone-400 mb-4">
           Book Blog
         </h1> 
         <p className="lg:w-2/3 mx-auto leading-relaxed mb-2">
-            A place for me to keep track of books I've read with ratings and recommendations
+            I love reading and want to share my favorite books and authors with others!
           </p>
           <hr className="mb-6"></hr>
         <div id="recommendations">

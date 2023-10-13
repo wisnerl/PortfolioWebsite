@@ -18,16 +18,16 @@ export default function Homepage() {
             2xl:mt-50 xl:mt-40 lg:mt-30 md:mt-20 sm:mt-5 2xl:mb-20 xl:mb-20 lg:mb-10 md:mb-4 sm:mb-2 items-center bg-stone-600 bg-opacity-60 rounded-2xl text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
               Hi, I'm Luke!
-              <br className="hidden lg:inline-block" /> Web Developer / Writer
+              <br className="hidden lg:inline-block" /> Software Engineer / Writer
             </h1>
             <p className="mb-8 text-white leading-relaxed">
-              I've always looked for a way to combine my love of coding with my creative side, and web development lets me do just that.
-              I also have a love of writing stories, so I hope to one day share my imagination with the world.
+              I've always looked for a way to combine my love of coding with my creative side, and web development is one way that I'm able to do that.
+              I also have a love of writing stories and hope one day to publish a book series, so I can share my imagination with the world.
             </p>
             <div className="justify-center">
-              <Link to="/contact"
-                className="mr-4 inline-flex text-white bg-red-700 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded lg:text-lg md:text-lg sm:text-md">
-                Contact Me
+              <Link to="/bio"
+                className="mr-4 inline-flex text-white bg-red-700 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded lg:text-lg md:text-lg sm:text-md">
+                About Me
               </Link>
               <Link to="/projects"
                 className="inline-flex text-white bg-stone-500 border-0 py-2 px-6 focus:outline-none hover:bg-stone-400 hover:text-white rounded lg:text-lg md:text-lg sm:text-md">

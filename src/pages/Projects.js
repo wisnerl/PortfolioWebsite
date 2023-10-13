@@ -7,14 +7,14 @@ import { projects } from "../data";
 export default function Projects() {
   return (
     <section id="projects">
-      <div className="container px-5 py-10 mx-auto text-center 2xl:w-1/2 xl:w-1/2 l:w-1/2 m:w-2/3 sm:w w">
+      <div className="container max-w-screen-2xl px-5 py-10 mx-auto text-center 2xl:w-1/2 xl:w-1/2 l:w-1/2 m:w-2/3 sm:w w">
         <div className="flex flex-col w-full mb-5">
           <CodeIcon className="mx-auto inline-block w-10 mb-4 text-stone-400" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-stone-400">
-            Past Work
+            Coding Work
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed mb-2">
-            Below are a few samples of relevant coding projects
+            Below are a few samples of recent coding projects
           </p>
           <hr className="mb-6 "></hr>
         </div>

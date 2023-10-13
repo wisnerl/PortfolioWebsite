@@ -7,16 +7,16 @@ import { skills } from "../data";
 export default function Skills() {
   return (
     <section id="skills">
-      <div className="container px-5 py-10 mx-auto">
+      <div className="container max-w-screen-2xl px-5 py-10 mx-auto">
         <div className="text-center mb-5">
           <ChipIcon className="w-10 inline-block mb-4 text-stone-400" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-stone-400 mb-4">
-            Skills
+            Tech Skills
           </h1>
           <p className="leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto mb-2">
-            Coding Languages, Libraries, and Other Technologies
+            I am experienced in many coding languages, libraries, and other technologies
           </p>
-          <hr className="mb-6"></hr>
+          <hr className="mb-6 lg:w-3/4 mx-auto"></hr>
         </div>
         <div id="skillgallery" className="flex flex-wrap lg:w-4/5 mx-auto">
           {skills.map((skill) => (

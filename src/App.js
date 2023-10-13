@@ -10,6 +10,7 @@ import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import Writing from "./pages/Writing";
 import Blog from "./pages/Blog";
+import Bio from "./pages/Bio";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <Route path='/writing' element={<Writing />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/bio' element={<Bio />} />
       </Routes>
     </BrowserRouter>
     </main>

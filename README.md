@@ -2,10 +2,10 @@ Current Version of My Portfolio Website:
 
 To-Add (in order of priority):
 
--Update Skills and Projects
--Contact page functionality
--Create Multiple pages to display different projects and eventually interactives
--Create Book Blog Page
+-Finish Book Blog Page
+-Add sample chapter for The Reaper of Gods
+-Create Page to store recipes
+-Add additional projects
 -Create Intereactive Map Page
 
 
