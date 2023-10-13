@@ -20,7 +20,7 @@ export default function Homepage() {
               Hi, I'm Luke!
               <br className="hidden lg:inline-block" /> Software Engineer / Writer
             </h1>
-            <p className="mb-8 text-white leading-relaxed">
+            <p className="2xl:mb-8 xl:mb-8 lg:mb-8 md:mb-8 mb-2 text-white leading-relaxed">
               I've always looked for a way to combine my love of coding with my creative side, and web development is one way that I'm able to do that.
               I also have a love of writing stories and hope one day to publish a book series, so I can share my imagination with the world.
             </p>

@@ -27,7 +27,7 @@ export default function Contact() {
                         src="./bioimage.jpeg"
                     />
                     <h2 className="text-2xl font-medium title-font text-stone-400 mt-4">
-                            Inquire Further:
+                        Inquire Further:
                     </h2>
                     <div className="flex flex-row w justify-center">
                         <a className="w-1/3 mt-4" href="https://www.linkedin.com/in/luke-wisner-811101198">
@@ -69,7 +69,7 @@ export default function Contact() {
                 </h2>
                 <div className="flex 2xl:flex-row xl:flex-row lg:flex-row flex-col bg-stone-400 text-white rounded-xl px-4 py-4 text-center items-center">
                     <p className="mx-auto leading-relaxed">
-                        Throughout my time at Northeastern I have gained many years of experience in multiple coding languages, my strongest being JavaScript and C++
+                        Throughout my time at Northeastern I have gained many years of experience in multiple coding languages, my strongest being JavaScript and C/C++
                     </p>
                     <Link to="/skills"
                         className="mt-4 inline-flex text-white whitespace-nowrap bg-red-700 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded lg:text-lg md:text-lg sm:text-md lg:ml-8 lg:mr-4 lg:mb-4">
