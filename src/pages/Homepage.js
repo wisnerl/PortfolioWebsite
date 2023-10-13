@@ -1,6 +1,6 @@
 // src/pages/Homepage.js
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 
 function sendImage(innerWidth) {
@@ -10,6 +10,18 @@ function sendImage(innerWidth) {
 }
 
 export default function Homepage() {
+  const [dimension, setDimension] = useState([
+    window.innerWidth,
+    window.innerHeight,
+  ]);
+  useEffect(() => {
+    const debouncedResizeHandler = debounce(() => {
+      console.log(dimension);
+      setDimension([window.innerWidth, window.innerHeight]);
+    }, 50); // 50ms
+    window.addEventListener('resize', debouncedResizeHandler);
+    return () => window.removeEventListener('resize', debouncedResizeHandler);
+  }, []);
   return (
     <section id="homepage">
       <div className="h-screen w-screen">
@@ -43,4 +55,15 @@ export default function Homepage() {
       </div>    
     </section>
   );
+}
+
+function debounce(fn, ms) {
+  let timer;
+  return _ => {
+    clearTimeout(timer);
+    timer = setTimeout(_ => {
+      timer = null;
+      fn.apply(this, arguments);
+    }, ms);
+  };
 }
