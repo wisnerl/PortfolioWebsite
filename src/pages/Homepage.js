@@ -9,6 +9,17 @@ function sendImage(innerWidth) {
   return "./headshot.jpeg"
 }
 
+function debounce(fn, ms) {
+  let timer;
+  return _ => {
+    clearTimeout(timer);
+    timer = setTimeout(_ => {
+      timer = null;
+      fn.apply(this, arguments);
+    }, ms);
+  };
+}
+
 export default function Homepage() {
   const [dimension, setDimension] = useState([
     window.innerWidth,
@@ -43,7 +54,7 @@ export default function Homepage() {
               </Link>
               <Link to="/projects"
                 className="inline-flex text-white bg-stone-500 border-0 py-2 px-6 focus:outline-none hover:bg-stone-400 hover:text-white rounded lg:text-lg md:text-lg sm:text-md">
-                See My Past Work
+                See Coding Work
               </Link>
             </div>
           </div>
@@ -55,15 +66,4 @@ export default function Homepage() {
       </div>    
     </section>
   );
-}
-
-function debounce(fn, ms) {
-  let timer;
-  return _ => {
-    clearTimeout(timer);
-    timer = setTimeout(_ => {
-      timer = null;
-      fn.apply(this, arguments);
-    }, ms);
-  };
 }
