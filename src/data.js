@@ -86,7 +86,7 @@ export const recommendations = [
     image: "./bookcovers/dune.jpg",
   },
   {
-    title: "Top Non-Fiction Recommendation",
+    title: "Non-Fiction Recommendation",
     booktitle: "Killers of the Flower Moon",
     description:
       "I read this before the movie came out, and I was constantly surprised by each twist and turn within the story. As engaging as the story is, the truth behind what happened to the Osage tribe is horrifying and should be told. The third part of this book blew me away with disturbing revelations that recontextualize the role of the government in the whole story.",
